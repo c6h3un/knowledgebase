@@ -4,7 +4,7 @@ tags:
   - Jekyll
   - static site generator
 categories:
-  - IT
+  - web
 ---
 ## Jekyll Installation Guide
 

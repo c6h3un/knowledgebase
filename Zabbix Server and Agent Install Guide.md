@@ -1,5 +1,5 @@
 ---
-Title: Zabbix Server and Zabbix Agent Install Guide  
+title: Zabbix Server and Zabbix Agent Install Guide  
 tags:
  - monitor
  - zabbix
