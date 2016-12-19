@@ -90,8 +90,8 @@ there are two ways to configure gogs
 	```
 	
 Fill in the infomations (圖片僅供參考)
-{% asset_img pics/gogs web config.png Gogs web config %}
-{% asset_img pics/gogs web config2.png Gogs web config %}
+{% asset_img gogs web config.png Gogs web config %}
+{% asset_img gogs web config2.png Gogs web config %}
 	
 
 * Config by using the app.ini config file
