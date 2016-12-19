@@ -89,9 +89,9 @@ there are two ways to configure gogs
 	./gogs web
 	```
 	
-	Fill in the infomations (圖片僅供參考)
-	![web_config1](pics/gogs web config.png)
-	![web_config2](pics/gogs web config2.png)
+Fill in the infomations (圖片僅供參考)
+{% asset_img pics/gogs web config.png Gogs web config %}
+{% asset_img pics/gogs web config2.png Gogs web config %}
 	
 
 * Config by using the app.ini config file
