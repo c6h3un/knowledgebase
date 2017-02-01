@@ -15,18 +15,24 @@ date: 2017-02-01 18:33
 要安裝hexo-cli 首先請先安裝nodejs 以及他的套件管理工具 npm。
 再利用下面指令安裝hexo-cli 即可。
 `npm install -g hexo-cli`
-- install theme into `themes` folder
+
+## Setup theme - even
 官方網站上面羅列了許多主題可供使用，這邊我們使用even 這個主題，並且安裝相關npm模組。
 
-```
-$ cd themes/
-$ git clone https://github.com/ahonn/hexo-theme-even
-$ cd ..
-$ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
-```
+  ```
+  $ cd themes/
+  $ git clone https://github.com/ahonn/hexo-theme-even
+  $ cd ..
+  $ npm install --save hexo-renderer-jade hexo-generator-feed hexo-generator-sitemap hexo-browsersync hexo-generator-archive
+  ```
+
 - Edit configuration file `_config.yml`
 
-## Advanced functions
+  ```
+  theme: even
+  ```
+
+### Advanced functions
   - pagination
   - tags
   - categories
