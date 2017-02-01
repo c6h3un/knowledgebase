@@ -281,7 +281,7 @@ sudo service gogs status
 
 		```
 	4. then you can access admin panel and change user gogs_admin using the user account
-	![gogs_change_password.png](pics/gogs_change_password.png)
+	![gogs_change_password.png](img/gogs_change_password.png)
 - 如果網頁排版亂定 or 啟動gogs 的時候出現下面訊息：
 	`[I] Listen: http://0.0.0.0:3000/10.128.116.129:3000`
 	檢查`/home/git/gogs/custom/conf/app.ini`檔案是否正確
