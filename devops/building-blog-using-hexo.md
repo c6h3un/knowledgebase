@@ -18,6 +18,7 @@ date: 2017-02-01 18:33
 
 ## Setup theme - even
 官方網站上面羅列了許多主題可供使用，這邊我們使用even 這個主題，並且安裝相關npm模組。
+- download theme from GitHub
 
   ```
   $ cd themes/
@@ -32,8 +33,10 @@ date: 2017-02-01 18:33
   theme: even
   ```
 
-### Advanced functions
+## Advanced Usages
   - pagination
   - tags
   - categories
   - about
+  - images
+  - readmore link
