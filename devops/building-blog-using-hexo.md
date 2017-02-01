@@ -34,9 +34,85 @@ date: 2017-02-01 18:33
   ```
 
 ## Advanced Usages
-  - pagination
-  - tags
-  - categories
+  - Archives
+    edit `_config.yml`
+    ```
+    # Generate Archive
+    archive_generator:
+      per_page: 10
+      yearly: true
+      monthly: true
+      daily: false
+    ```
+  - Pagination
+
+    ```
+    # Pagination
+    ## Set per_page to 0 to disable pagination
+    per_page: 10
+    pagination_dir: page
+    ```
+  - Tags
+    - add `tags` page
+      `$ hexo new page tags`
+    - edit `source/tags/index.md`, set layout to `tags`
+      ```
+      title: tags
+      layout: tags
+      ```
+    - edit theme's `_config.yml`
+      ```
+      # ===========================================
+      # Menu Settings
+      # ===========================================
+      menu:
+        Home: /
+        Archives: /archives/
+        Tags: /tags
+        Categories: /categories
+        About: /about
+      ```
+  - Categories
+    - add `categories` page
+      `$ hexo new page categories`
+    - edit `source/categories/index.md`, set layout to `categories`
+      ```
+      title: categories
+      layout: categories
+      ```
+    - edit theme's `_config.yml`
+      ```
+      # ===========================================
+      # Menu Settings
+      # ===========================================
+      menu:
+        Home: /
+        Archives: /archives/
+        Tags: /tags
+        Categories: /categories
+        About: /about
+      ```
   - about
+    - add `about` page
+      `$ hexo new page about`
+    - edit `source/about/index.md`, adding some infomations
+      ```
+      title: categories
+      ---
+      # About Me
+      My name is Helen
+      ```
+    - edit theme's `_config.yml`
+      ```
+      # ===========================================
+      # Menu Settings
+      # ===========================================
+      menu:
+        Home: /
+        Archives: /archives/
+        Tags: /tags
+        Categories: /categories
+        About: /about
+      ```
   - images
   - readmore link
