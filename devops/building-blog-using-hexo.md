@@ -115,4 +115,8 @@ date: 2017-02-01 18:33
         About: /about
       ```
   - images
+    If you want to add images in your posts, please place your images under `images` directory. And use markdown sytax `![](/img/test.jpg)`
+
+    ![](/img/test.jpg)
   - readmore link
+    在想要加入的地方加入`<!-- more -->`即可。
