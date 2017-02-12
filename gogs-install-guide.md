@@ -16,8 +16,8 @@ categories:
 ### Example Information
 
 > - Machine role: gogs git service
-> - Machine IP: 10.128.112.2(eth0)
-> - Hostname: appgogs
+> - Machine IP: 10.128.116.129
+> - Hostname: gogs
 > - servcie version: v0.9.97
 > - Github repository: https://github.com/gogits/gogs
 
@@ -91,7 +91,7 @@ there are two ways to configure gogs
 	
 Fill in the infomations (圖片僅供參考)
 ![](/img/gogs web config.png)
-![](/img/gogs web config2.png)	
+[comment]: <> (![](/img/gogs web config2.png))	
 
 * Config by using the app.ini config file
 
@@ -252,7 +252,7 @@ sudo service gogs status
 ```  
 
 ### Check point
-1. Open web browser and enter `http://10.128.112.2:3000/`. Check that homepage of gogs is reachable
+1. Open web browser and enter `http://10.128.116.129:3000/`. Check that homepage of gogs is reachable
 2. Register a new user and login using the username and password
 3. create a new repository and commit something. 
 
