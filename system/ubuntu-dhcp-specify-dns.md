@@ -12,10 +12,8 @@ date: 2017-04-05 21:07
 
 - server /etc/network/interfaces config  
   
-  ```  
   auto eth0  
   iface eth0 inet dhcp
-  ```  
   
 - server dhcp 取得的dns namserver  
   `/etc/resolv.conf`  
