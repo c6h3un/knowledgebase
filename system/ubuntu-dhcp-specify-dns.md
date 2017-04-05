@@ -14,7 +14,7 @@ date: 2017-04-05 21:07
   
   ```  
   auto eth0  
-  iface eth0 inet dhcp  
+  iface eth0 inet dhcp
   ```  
   
 - server dhcp 取得的dns namserver  
@@ -22,7 +22,7 @@ date: 2017-04-05 21:07
   
   ```  
   nameserver 8.8.8.8  
-  nameserver 8.8.4.4  
+  nameserver 8.8.4.4
   ```  
   
 - 額外自行架設的dns server 資訊  
