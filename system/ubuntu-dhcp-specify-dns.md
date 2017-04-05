@@ -8,7 +8,7 @@ date: 2017-04-05 21:07
 ---
 
 ### 使用情境
-在做系統設定時，DHCP取得ip時所提供的 dns server並不合用，需要設定使用額外的dns server 以及自定義的search domain來提供內部服務使用。下面為設定範例。
+在做系統設定時，DHCP取得ip時所提供的 dns server並不合用，需要設定使用額外的dns server 以及自定義的search domain來提供內部服務使用。下面為設定範例。  
 
 * server /etc/network/interfaces config  
 
@@ -50,7 +50,7 @@ date: 2017-04-05 21:07
   search helen.localnet
   ```  
 
-- 測試dns 
+- 測試dns   
   `nslookup pc.helen.localnet`  
   `dig +short pc.helen.localnet`  
 
