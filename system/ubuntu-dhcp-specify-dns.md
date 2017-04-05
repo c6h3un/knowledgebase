@@ -12,18 +12,18 @@ date: 2017-04-05 21:07
 
 - server /etc/network/interfaces config  
   
-```
-auto eth0  
-iface eth0 inet dhcp
-```
+  ```
+  auto eth0
+  iface eth0 inet dhcp
+  ```
   
 - server dhcp 取得的dns namserver  
   `/etc/resolv.conf`  
   
-```  
-nameserver 8.8.8.8  
+```
+nameserver 8.8.8.8
 nameserver 8.8.4.4
-```  
+```
   
 - 額外自行架設的dns server 資訊  
   - dns ip - **10.1.1.1**  
@@ -48,7 +48,7 @@ nameserver 10.1.1.1
 nameserver 8.8.8.8
 nameserver 8.8.4.4
 search helen.localnet
-```  
+```
   
 - 測試dns   
   `nslookup pc.helen.localnet`  
