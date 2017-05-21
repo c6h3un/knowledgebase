@@ -41,6 +41,7 @@ vlan-raw-device eth0
 - bring up interfaces
 `sudo ifup eth0.80`
 `sudo ifup eth0.1120`
+
 ### mac 
 
 ![](/img/mac-setup-01.png)
