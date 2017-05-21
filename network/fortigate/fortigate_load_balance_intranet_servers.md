@@ -87,5 +87,4 @@ allow access from network `10.0.80.0/22` and network `10.0.112.0/24`.
 `Enable NAT > Use Destination Interface`  
 
 #### Reference  
-- [Technical Tip : How to prevent brute force attempts to a FortiGate administrator account login](http://kb.fortinet.com/kb/documentLink.do?externalID=FD32198)
-- [Configuring Administrator access to a FortiGate unit using Trusted Hosts](http://kb.fortinet.com/kb/documentLink.do?popup=true&externalID=10868&languageId=)
+- [Load balancing configuration examples](http://help.fortinet.com/fos50hlp/54/Content/FortiOS/fortigate-load-balancing-52/ldb_examples.htm)
