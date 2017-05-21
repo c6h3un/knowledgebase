@@ -67,7 +67,7 @@ allow access from network `10.0.80.0/22` and network `10.0.112.0/24`.
 
 | Name               | Informations        |
 |--------------------|---------------------|
-| IP Adderss         | 10.0.112.25         |
+| IP Adderss         | 10.0.112.26         |
 | Max Connections    | 100                 |
 | Mode               | Active              |
 - Create Policy 
