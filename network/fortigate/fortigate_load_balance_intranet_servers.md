@@ -79,7 +79,7 @@ allow access from network `10.0.80.0/22` and network `10.0.112.0/24`.
 | Incoming Interface | dmz                 |
 | Source Address     | all                 |
 | Outgoing Interface | dmz                 |
-| Destination Address| 10.0.112.10         |
+| Destination Address| worker-vip          |
 | Schedule           | always              |
 | Service            | all                 |
 | Action             | accept              |
