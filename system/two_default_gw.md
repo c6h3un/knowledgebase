@@ -46,6 +46,7 @@ iface p1p2 inet static
 	post-up ip rule add from 1.1.2.2/32 table wan2
 	post-up ip rule add to 1.1.2.2/32 table wan2
 ---
+```
 
 3. Start p1p2
 `sudo ifup p1p2`
