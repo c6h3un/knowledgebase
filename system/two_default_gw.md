@@ -56,3 +56,6 @@ iface p1p2 inet static
 ip route list table wan2
 ip rule show
 ```
+
+## Reference
+- https://www.thomas-krenn.com/en/wiki/Two_Default_Gateways_on_One_System
